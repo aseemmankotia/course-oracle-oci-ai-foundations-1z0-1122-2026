@@ -1,0 +1,16 @@
+## Chapter 12: Full Exam Simulation & Test-Taking Strategy — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | Approximate time/question format historically used for 1Z0-1122-25? | ~90 minutes for ~40 questions. Always confirm the current duration and question count on Oracle's official 1Z0-1122-25 page before scheduling — Oracle updates formats periodically. |
+| 2 | Typical passing score band for OCI Associate-level exams like 1Z0-1122-25? | Historically around 65%. Confirm the exact current passing score on Oracle's official exam page before test day. |
+| 3 | OCI Vision vs OCI Document Understanding — when to use which? | Vision = image classification/object detection/basic OCR. Document Understanding = structured extraction (key-value pairs, tables, forms) from documents. Exam tip: 'tables/forms' keyword → Document Understanding. |
+| 4 | OCI Anomaly Detection vs OCI Forecasting — when to use which? | Anomaly Detection = flags unusual/outlier data points in time-series. Forecasting = predicts future numeric values/trends. Exam tip: 'detect unusual' → Anomaly Detection; 'predict future demand' → Forecasting. |
+| 5 | OCI Language vs OCI Speech — core difference? | Language = NLP on text (sentiment, entities, classification, translation of text). Speech = converts audio to text and vice versa (transcription/synthesis). Exam tip: audio input keyword → Speech. |
+| 6 | OCI Data Science Jobs vs Model Deployment — when to use which? | Jobs = run batch/scheduled scripts (training, data prep), no persistent endpoint. Model Deployment = hosts a trained model as a scalable REST endpoint for real-time inference. |
+| 7 | What is the RAG (Retrieval-Augmented Generation) pattern in OCI? | Combine OCI Generative AI Agents with a knowledge base: retrieve relevant document passages first, then generate a grounded response using an LLM. Used for enterprise Q&A/chatbots over private data. |
+| 8 | Fine-tuning vs Prompt Engineering — decision rule? | Prefer fine-tuning when you have a quality labeled dataset and need consistent behavior on a narrow/specialized vocabulary. Prefer prompt engineering for quick, low-cost adjustments without training data. |
+| 9 | On-Demand vs Dedicated AI Cluster in OCI Generative AI Service — key difference? | On-Demand = pay-per-use on shared infrastructure, good for variable/light workloads. Dedicated AI Cluster = reserved capacity, required for fine-tuning and needed for predictable high-throughput production workloads. |
+| 10 | General OCI CLI command structure pattern? | oci <service> <resource> <action> [options] — e.g., oci os object list. Exam tests recognizing this pattern rather than memorizing every subcommand. |
+| 11 | What is the 'flag-and-review' exam technique? | Select your best guess on uncertain questions, flag them, move on, then return to flagged items with remaining time. Prevents leaving blanks and avoids losing time on any single question. |
+| 12 | Elimination strategy when 2 of 4 options remain plausible? | Re-check the question stem and pick the option that satisfies ALL stated constraints completely, not just partially. Ignore answer length, ordering, or terms seen in unrelated questions. |

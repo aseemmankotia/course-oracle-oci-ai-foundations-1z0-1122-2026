@@ -1,0 +1,16 @@
+## Chapter 1: AI Fundamentals: Concepts, Categories & Enterprise Use Cases — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | Narrow AI vs General AI (AGI) — key difference? | Narrow AI performs a single specific task (e.g., spam filtering, image classification) and cannot generalize beyond it. General AI (AGI) would match human-level intelligence across ANY task. Exam tip: ALL real-world deployed AI today is Narrow AI — AGI does not currently exist in production. |
+| 2 | AI system vs traditional rule-based software — core distinction? | Rule-based software executes fixed, developer-written if-then logic with no learning. AI systems (especially ML) learn statistical patterns from data and generalize to new, unseen inputs. Exam tip: 'learns from data' = AI; 'hardcoded logic only' = traditional software. |
+| 3 | Language AI task type — example enterprise use case? | NLP tasks: sentiment analysis, chatbots, translation, summarization. Example: customer support ticket auto-categorization by sentiment/topic. |
+| 4 | Vision AI task type — example enterprise use case? | Computer vision tasks: image classification, object detection, OCR. Example: manufacturing defect detection on assembly line cameras. |
+| 5 | Speech AI task type — example enterprise use case? | Speech tasks: speech-to-text, text-to-speech, speaker identification. Example: call center transcription and voice-based IVR systems. |
+| 6 | Recommendation AI task type — how does it work? | Suggests items/content based on user behavior similarity or item attributes (collaborative or content-based filtering). Example: e-commerce 'customers also bought' feature. |
+| 7 | Anomaly detection AI task type — how to identify on the exam? | Flags data points that deviate significantly from established normal patterns. Keywords in scenario: 'fraud', 'unusual', 'outlier', 'deviation'. Example: credit card fraud detection. |
+| 8 | Forecasting AI task type — how to identify on the exam? | Predicts future numeric values using historical time-series data. Keywords: 'predict future', 'next quarter', 'demand', 'trend'. Example: inventory demand forecasting. |
+| 9 | Responsible AI — 4 core principles tested? | Bias (unfair skew in outcomes), Fairness (equitable treatment across groups), Transparency (explainability of decisions), Accountability (clear ownership of AI outcomes/impacts). |
+| 10 | Bias vs Fairness in Responsible AI — how do they differ on the exam? | Bias = the presence of skewed/discriminatory patterns learned from data. Fairness = the goal/principle of ensuring equitable outcomes despite that bias. Exam trap: scenario describing skewed hiring outcomes tests 'fairness violation', not just 'bias' as the principle name. |
+| 11 | Hallucination (generative AI limitation) — definition? | Confident but factually incorrect or fabricated output not grounded in real data/sources. Common exam distractor: confused with 'overfitting' (a training data memorization issue) — these are NOT the same thing. |
+| 12 | Overfitting vs Underfitting — quick distinction? | Overfitting: model memorizes training data, performs poorly on new/unseen data (too specific). Underfitting: model fails to capture patterns even in training data (too simple). Exam tip: neither term equals 'hallucination'. |
